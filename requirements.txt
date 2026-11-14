@@ -1,0 +1,2 @@
+# Runtime dependency of the tools/ scripts (nothing else is needed).
+hidapi>=0.14,<1

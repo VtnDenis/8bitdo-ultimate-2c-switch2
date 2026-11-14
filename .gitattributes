@@ -1,0 +1,3 @@
+# everything here is consumed by bash (WSL) and python; force LF so a Windows
+# checkout does not break the shell scripts and the linker script
+* text=auto eol=lf

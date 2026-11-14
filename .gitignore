@@ -1,0 +1,9 @@
+# 8BitDo's firmware image and the factory dump of a real pad are not ours to ship
+fw/*.dat
+build/
+
+# cloned reference repositories (GP2040-CE, 8bitdo toolkits, ...)
+ref/
+
+__pycache__/
+*.pyc
