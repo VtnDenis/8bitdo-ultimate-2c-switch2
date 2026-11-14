@@ -1,5 +1,7 @@
 # 8BitDo Ultimate 2C Wired → Switch 2 Pro Controller
 
+[![tests](https://github.com/VtnDenis/8bitdo-ultimate-2c-switch2/actions/workflows/test.yml/badge.svg)](https://github.com/VtnDenis/8bitdo-ultimate-2c-switch2/actions/workflows/test.yml)
+
 Make an 8BitDo Ultimate 2C Wired (USB `2DC8:310A` XInput / `2DC8:301D` DInput) show up
 on a Switch 2 as a **wired Switch Pro Controller** (`057E:2009`) by patching its own
 firmware. No adapter, no dongle, no hardware modification. Verified end to end, buttons

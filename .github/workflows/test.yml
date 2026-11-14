@@ -1,0 +1,13 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  host:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # packer + handler are pure C with no hardware access, so plain gcc is enough
+      - run: bash scripts/test.sh
